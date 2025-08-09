@@ -202,6 +202,7 @@ nav a:hover {
   border-radius: 6px;
   font-family: inherit;
   background-color: #333;
+  color: #ffffff;
 }
 
 .comment textarea {
@@ -236,8 +237,8 @@ nav a:hover {
   flex-direction: column;
   gap: 10px;
   color: #ffffff;
-  font-size: 18px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 15px;
+  font-family: 'Rajdhani', sans-serif;
 }
 
 .comment-item {
