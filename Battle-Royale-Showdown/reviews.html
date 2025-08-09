@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Reviews — Battle Royale Showdown</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header>
+    <div class="logo">Battle Royale Showdown</div>
+    <nav>
+      <a href="index.html">Home</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <h2>Call of Duty Mobile</h2>
+      <div class="stars" id="codm-stars">
+        <span class="star" data-value="1">☆</span>
+        <span class="star" data-value="2">☆</span>
+        <span class="star" data-value="3">☆</span>
+        <span class="star" data-value="4">☆</span>
+        <span class="star" data-value="5">☆</span>
+        <div class="score" id="codm-score">3.0</div>
+      </div>
+      <div class="pros-cons">
+        <div><strong>Pros:</strong> Fast-paced, crisp gunplay, frequent updates</div>
+        <div><strong>Cons:</strong> Smaller maps, monetization pressure</div>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>PUBG Mobile</h2>
+      <div class="stars" id="pubg-stars">
+        <span class="star" data-value="1">☆</span>
+        <span class="star" data-value="2">☆</span>
+        <span class="star" data-value="3">☆</span>
+        <span class="star" data-value="4">☆</span>
+        <span class="star" data-value="5">☆</span>
+        <div class="score" id="pubg-score">4.0</div>
+      </div>
+      <div class="pros-cons">
+        <div><strong>Pros:</strong> Realistic mechanics, large maps</div>
+        <div><strong>Cons:</strong> Steeper learning curve</div>
+      </div>
+    </section>
+
+    <section class="card">
+      <h3>Which game is your favorite?</h3>
+      <div class="vote">
+        <button id="vote-codm">Vote CODM</button>
+        <button id="vote-pubg">Vote PUBG</button>
+
+        <div class="vote-count">
+          CODM: <span id="vc">146</span>
+          •
+          PUBG: <span id="vp">175</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="card">
+      <h3>Comments</h3>
+      <form class="comment" id="comment-form">
+        <input id="name" placeholder="Your name (nickname)">
+        <textarea id="text" rows="3" placeholder="Write your comment..."></textarea>
+        <div class="form-actions">
+          <button type="submit">Post comment</button>
+        </div>
+      </form>
+
+      <div class="comment-list" id="comments"></div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
